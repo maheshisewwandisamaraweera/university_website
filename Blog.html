@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Program For Year</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+
+                <h2>Our Certificate & Online Program For Year</h2>
+                <p>Graduating from university marks a significant milestone, 
+                    celebrating years of hard work and dedication.
+                     The ceremony, filled with caps and gowns, represents the culmination of 
+                     rigorous studies and personal growth. It's also a time to acknowledge the
+                      support from family, friends, and mentors. As graduates receive their diplomas,
+                     they step into a new chapter, equipped with knowledge and skills for future opportunities.
+                     Graduation signifies both the end of an academic journey and the beginning of new adventures, 
+                     filled with optimism and confidence.</p>
+                     <br>
+                     <p>Graduation is a time to reflect on the journey that brought students to this moment. 
+                        It's an opportunity to look back on the challenges overcome, the friendships made, 
+                        and the personal growth experienced. Many graduates take this time to express gratitude to their professors,
+                        peers, and loved ones who provided support and encouragement along the way. This period of reflection helps to
+                        appreciate the effort and sacrifices made to reach this achievement.</p>
+
+                        <br>
+                        <p>The graduation ceremony is steeped in tradition, with caps, gowns, and tassels marking the formal celebration of 
+                        academic success. Graduates often participate in time-honored practices such as the turning of the tassel from right to left,
+                         symbolizing their transition from student to graduate. Speeches from faculty, distinguished guests, and fellow students inspire
+                         and motivate the graduates as they prepare to embark on their post-university paths. These traditions create a sense of continuity 
+                         and connection with past graduates.</p>
+                         <br>
+                         <p>raduation is not just about celebrating past achievements; it's also about looking forward to the future. For many, 
+                            this moment represents the gateway to new opportunities, whether it's starting a career, pursuing further education, 
+                            or exploring new passions. The skills and knowledge gained during university provide a strong foundation for future endeavors. 
+                            Graduates leave with a sense of accomplishment and a readiness to face the challenges and opportunities that lie ahead, armed 
+                            with the confidence that comes from having completed a significant educational journey.</p>
+
+
+                            <div class="comment-box">
+                                <h3>Leave a comment</h3>
+
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Enter Name">
+                                    <input type="email" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your comment">
+
+                                    </textarea>
+                                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+
+                                </form>
+                            </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Computer Network</span>
+                    <span>10</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>20</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to the University, a leading institution dedicated to academic excellence, 
+            innovative research, and community engagement. Our diverse programs and vibrant campus
+             provide an enriching<br> environment where students are empowered to achieve their full potential. 
+             Join us in shaping the future and making a difference in the world.</p>
+
+             <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-github"></i>
+
+             </div>
+             <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    
+</body>
+</html>

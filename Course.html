@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>The University offers a diverse range of courses to equip students for success.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Computer Science</h3>
+                <p>The Computer Science program at the University provides a comprehensive education 
+                 in software development, algorithms, and data structures. Students gain hands-on
+                 experience through projects and internships, preparing them for careers in technology and innovation.</p>
+            </div>
+            <div class="course-col">
+                <h3>Business Administration</h3>
+                <p>The Business Administration course equips students with essential skills in management, finance,
+                  and marketing. Emphasizing real-world applications and leadership, the program prepares graduates 
+                  for successful careers in diverse business environments.</p>
+            </div>
+            <div class="course-col">
+                <h3>Environmental Science</h3>
+                <p>The Environmental Science program offers an in-depth understanding of ecological systems,
+                  sustainability, and environmental policy. Students engage in fieldwork and research, addressing 
+                  critical environmental challenges and promoting sustainable practices.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>The University offers state-of-the-art facilities, including advanced laboratories, modern libraries, 
+            and extensive recreational centers.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>The University library offers extensive collections, advanced research resources, and collaborative study spaces.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>The University playground features modern sports facilities and well-maintained fields, promoting physical fitness and team activities.</p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>The University canteen offers a variety of delicious and nutritious meals in a comfortable and social atmosphere.</p>
+                </div>
+            </div>
+
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to the University, a leading institution dedicated to academic excellence, 
+            innovative research, and community engagement. Our diverse programs and vibrant campus
+             provide an enriching<br> environment where students are empowered to achieve their full potential. 
+             Join us in shaping the future and making a difference in the world.</p>
+
+             <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-github"></i>
+
+             </div>
+             <p>Made with <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    
+</body>
+</html>
